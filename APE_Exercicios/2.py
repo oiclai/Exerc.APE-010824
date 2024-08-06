@@ -2,7 +2,7 @@
 
 V=[]
 qtdK=0
-for i in range(5):
+for i in range(30):
     elemV=int(input(f"Elemento ({i+1}) do Vetor: "))
     V.append(elemV)
 K=int(input("Procura do elemento: "))
