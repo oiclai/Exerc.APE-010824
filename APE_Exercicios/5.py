@@ -20,4 +20,13 @@ TENTATIVA DE COLOCAR NUMEROS ALEATORIOS QUE NAO SE REPITAM
 import random
 numeros=list(range(1,20,2)) # GERAR O VETOR
 random.shuffle(numeros) # EMBARALHAR
+menor=maior=numeros[0]
+menor_i=maior_i=0
+for i in range(1,len(numeros)):
+    if (numeros[i]>maior):
+        maior=numeros[i]
+        maior_i=i
+    if (numero[i]<menor):
+        menor=numeros[i]
+        menor_i=i
 '''
