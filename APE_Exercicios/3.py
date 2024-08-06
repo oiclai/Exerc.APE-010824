@@ -16,3 +16,10 @@ if qtdK==0:
     print(f"Não tem o Número Procurado")
 else:
     print(f"Tem, {qtdK} vez(es). Posições: {posicoes}")
+
+# outra alternativa
+# substituir o mantimento do contador:
+# verificar se tem ou nao
+'''
+if (len(posicoes)) > 0:
+'''
