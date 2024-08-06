@@ -15,4 +15,9 @@ for i in range(N):
         print(f"Maior Número, Índice: {maior}, {i}")
     if V[i]==menor:
         print(f"Menor Número, Índice: {menor}, {i}")
-
+'''
+TENTATIVA DE COLOCAR NUMEROS ALEATORIOS QUE NAO SE REPITAM
+import random
+numeros=list(range(1,20,2)) # GERAR O VETOR
+random.shuffle(numeros) # EMBARALHAR
+'''
