@@ -10,3 +10,18 @@ for elemV in V:
       if elemV==K:
            qtdK+=1
 print(qtdK)
+
+# outra alternativa:
+''' 
+import random 
+numeros=[0]*30
+qtdK=0
+for i in range(len(numeros)): 
+    numeros[i]=random.randit(1,100) # numero aleatorio entre 1 a 100 (incluindo ambos)
+k=int(input("Chute: "))
+for i in range(len(numeros)):
+    if (numeros[i])==k:
+        qtdk+=1
+print(numeros)
+print(qtdk)
+'''
