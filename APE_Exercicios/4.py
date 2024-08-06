@@ -17,6 +17,7 @@ print(impar)
 
 # SEM O USO DE OUTROS VETORES:
 '''
+PARES:
 for i in range(10):
     if (i%2==0):
         print(vetor[i])
@@ -24,5 +25,15 @@ for i in range(10):
 OU
 
 for i in range(0,10,2):
+    print(vetor[i])
+
+IMPARES:
+for i in range(10):
+    if (i%2!=0):
+        print(vetor[i])
+
+OU
+
+for i in range(1,10,2):
     print(vetor[i])
 '''
