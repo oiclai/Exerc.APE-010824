@@ -8,3 +8,9 @@ for i in range(n):
     vetor.append(elem)
 vetor.reverse()
 print(vetor)
+
+# outra alternativa
+'''
+for i in range(10//2):
+    numeros[i]
+'''
