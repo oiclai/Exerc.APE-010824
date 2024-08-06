@@ -14,3 +14,15 @@ for i in range(10):
         impar.append(vetor[i])
 print(par)
 print(impar)
+
+# SEM O USO DE OUTROS VETORES:
+'''
+for i in range(10):
+    if (i%2==0):
+        print(vetor[i])
+        
+OU
+
+for i in range(0,10,2):
+    print(vetor[i])
+'''
